@@ -14,7 +14,7 @@ StructaLock introduces a structured format for vote-escrowed token issuance. The
 
 StructaLock is currently in active development. Follow updates and community progress here:
 
-- X: <https://x.com/StructaLabs>
+- X: <https://x.com/StructaLabs>.
 
 ## Architecture
 
