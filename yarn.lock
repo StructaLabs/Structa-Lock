@@ -431,25 +431,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@szmarczak/http-timer@npm:^4.0.5":
-  version: 4.0.6
-  resolution: "@szmarczak/http-timer@npm:4.0.6"
-  dependencies:
-    defer-to-connect: ^2.0.0
-  checksum: c29df3bcec6fc3bdec2b17981d89d9c9fc9bd7d0c9bcfe92821dc533f4440bc890ccde79971838b4ceed1921d456973c4180d7175ee1d0023ad0562240a58d95
-  languageName: node
-  linkType: hard
-
-"@tootallnate/once@npm:1":
-  version: 1.1.2
-  resolution: "@tootallnate/once@npm:1.1.2"
-  checksum: e1fb1bbbc12089a0cb9433dc290f97bddd062deadb6178ce9bcb93bb7c1aecde5e60184bc7065aec42fe1663622a213493c48bbd4972d931aae48315f18e1be9
-  languageName: node
-  linkType: hard
-
-"@structa/structa-lock@workspace:.":
+"@structa/structalock@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@structa/structa-lock@workspace:."
+  resolution: "@structa/structalock@workspace:."
   dependencies:
     "@crateprotocol/yi": ^0.3.0
     "@gokiprotocol/client": ^0.8.0
@@ -462,15 +446,14 @@ __metadata:
     "@saberhq/token-utils": ^1.12.52
     "@saberhq/tsconfig": ^1.12.52
     "@solana/web3.js": ^1.36.0
-    "@structa/structa-sdk": ^0.5.4
-    "@types/bn.js": ^5.1.0
+    "@types/bn.js": ^5.1.6
     "@types/chai": ^4.3.0
     "@types/lodash": ^4.14.179
     "@types/mocha": ^9.1.0
     "@types/node": ^17.0.21
     "@types/prettier": ^2.4.4
     "@yarnpkg/doctor": ^3.1.1
-    bn.js: ^5.2.0
+    bn.js: ^5.2.2
     chai: ^4.3.4
     eslint: ^8.11.0
     eslint-import-resolver-node: ^0.3.6
@@ -493,26 +476,23 @@ __metadata:
     "@saberhq/solana-contrib": ^1.12
     "@saberhq/token-utils": ^1.12
     "@solana/web3.js": ^1.29.2
-    "@structa/structa-sdk": ^0.5.4
-    bn.js: ^5.2.0
+    bn.js: ^5.2.2
   languageName: unknown
   linkType: soft
 
-"@structa/structa-sdk@npm:^0.5.4":
-  version: 0.5.4
-  resolution: "@structa/structa-sdk@npm:0.5.4"
+"@szmarczak/http-timer@npm:^4.0.5":
+  version: 4.0.6
+  resolution: "@szmarczak/http-timer@npm:4.0.6"
   dependencies:
-    tiny-invariant: ^1.2.0
-    tslib: ^2.3.1
-  peerDependencies:
-    "@gokiprotocol/client": ^0.8.0
-    "@project-serum/anchor": ">=0.22"
-    "@saberhq/anchor-contrib": ^1.12
-    "@saberhq/solana-contrib": ^1.12
-    "@saberhq/token-utils": ^1.12
-    "@solana/web3.js": ^1.29.2
-    bn.js: ^5.2.0
-  checksum: 3621f8166daccac136f13ba7c1a15ea54463f42a3f9e7b9324882f159e8f098628bf51fa0ada75313f3b335698a438884ea4ec39a86c8d4eb02c8ed367bfd548
+    defer-to-connect: ^2.0.0
+  checksum: c29df3bcec6fc3bdec2b17981d89d9c9fc9bd7d0c9bcfe92821dc533f4440bc890ccde79971838b4ceed1921d456973c4180d7175ee1d0023ad0562240a58d95
+  languageName: node
+  linkType: hard
+
+"@tootallnate/once@npm:1":
+  version: 1.1.2
+  resolution: "@tootallnate/once@npm:1.1.2"
+  checksum: e1fb1bbbc12089a0cb9433dc290f97bddd062deadb6178ce9bcb93bb7c1aecde5e60184bc7065aec42fe1663622a213493c48bbd4972d931aae48315f18e1be9
   languageName: node
   linkType: hard
 
